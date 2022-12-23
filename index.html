@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe SPA</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="">
+    <header>
+      <img src="./images/icon.svg" alt="ícone" class="rotateIn" />
+      <nav>
+        <ul>
+          <li>
+            <a href="/" class="hvr-underline-from-left" onclick="route()"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="/universo"
+              class="hvr-underline-from-left"
+              onclick="route()"
+              >Universo</a
+            >
+          </li>
+          <li>
+            <a
+              href="/exploracao"
+              class="hvr-underline-from-left"
+              onclick="route()"
+              >Exploração</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="App"></div>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
